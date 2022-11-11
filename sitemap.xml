@@ -2,13 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://alanSquirrelyz.github.io/brew/</loc>
+    <lastmod>2022-11-03T09:29:22-07:00</lastmod>
+  </url><url>
+    <loc>https://alanSquirrelyz.github.io/brew/my-understanding-of-hazy-ipas/</loc>
+    <lastmod>2022-11-03T09:29:22-07:00</lastmod>
+  </url><url>
+    <loc>https://alanSquirrelyz.github.io/</loc>
+    <lastmod>2022-11-03T09:29:22-07:00</lastmod>
+  </url><url>
+    <loc>https://alanSquirrelyz.github.io/tech/cpp-priority_queue_customize/</loc>
+    <lastmod>2022-10-15T09:07:01-07:00</lastmod>
+  </url><url>
+    <loc>https://alanSquirrelyz.github.io/tech/</loc>
+    <lastmod>2022-10-15T09:07:01-07:00</lastmod>
+  </url><url>
     <loc>https://alanSquirrelyz.github.io/about/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://alanSquirrelyz.github.io/categories/</loc>
   </url><url>
     <loc>https://alanSquirrelyz.github.io/tags/</loc>
-  </url><url>
-    <loc>https://alanSquirrelyz.github.io/</loc>
   </url>
 </urlset>
