@@ -11,7 +11,39 @@
     
     
     
+    <item>
+      <title>My Understanding of IPAs</title>
+      <link>https://alanSquirrelyz.github.io/my-understanding-of-ipas/</link>
+      <pubDate>Thu, 03 Nov 2022 09:29:22 -0700</pubDate>
+      
+      <guid>https://alanSquirrelyz.github.io/my-understanding-of-ipas/</guid>
+      <description>&lt;p&gt;I love many kinds of sports and I love to have a drink after a week&amp;rsquo;s hard work.&lt;/p&gt;
+&lt;p&gt;I do boxing twice a week, I like the feeling of pouring my pressure onto the sand boxes, which is such a pleasure of conquering and releasing. It is so similar to Whiskey. Splash and explosion are always Whiskey is pursuing, and you do wish some smooth and complexity in boxing games, as well as some Whiskeys.&lt;/p&gt;
+&lt;p&gt;I also run every morning, but not long runs. I think LST is a quite elegant training about improving your strong mind, instead of muscles and strength. Wine, especially red&lt;/p&gt;
+</description>
+    </item>
     
+    
+    
+    <item>
+      <title>Cpp Priority_queue_customize</title>
+      <link>https://alanSquirrelyz.github.io/cpp-priority_queue_customize/</link>
+      <pubDate>Sat, 15 Oct 2022 09:07:01 -0700</pubDate>
+      
+      <guid>https://alanSquirrelyz.github.io/cpp-priority_queue_customize/</guid>
+      <description>&lt;h1 id=&#34;techniques-for-customizing-priority_queue-in-c-stl&#34;&gt;Techniques for customizing &lt;code&gt;priority_queue&lt;/code&gt; in C++ STL&lt;/h1&gt;
+&lt;h2 id=&#34;basic&#34;&gt;Basic&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;priority_queue&lt;/code&gt; is a container adaptor in C++ STL. It provides an order for elements in queue, taking the advantage of the data structure &lt;code&gt;heap&lt;/code&gt;. The comparing (the order to keep the queue) can be customized and it is very useful in some cases to make algorithms more quick and efficient. Here are some summarize about the customization, as well as some of mt own understandings.&lt;/p&gt;
+&lt;p&gt;Here is the complete initializing template for &lt;code&gt;priority_queue&lt;/code&gt;:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;template&amp;lt;
+    class T,
+    class Container = std::vector&amp;lt;T&amp;gt;,
+    class Compare = std::less&amp;lt;typename Container::value_type&amp;gt;
+&amp;gt; class priority_queue;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Priority_queue is very supportive solving problems using greedy algorithms. But sometimes the problems are tricky to use a integer only, so priority queue with self-designed order is very sharp for these occasions.&lt;/p&gt;
+&lt;p&gt;Some contents are based on &lt;a href=&#34;https://en.cppreference.com/w/cpp/container/priority_queue&#34;&gt;cppreference&lt;/a&gt; and some blogs on Internet.&lt;/p&gt;
+</description>
+    </item>
     
     
     
