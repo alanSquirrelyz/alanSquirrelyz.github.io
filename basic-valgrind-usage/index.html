@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Youzhe&#39;s blogs">
+    
+    <link rel="shortcut icon" href="https://alanSquirrelyz.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>Basic Valgrind Usage</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://alanSquirrelyz.github.io">Youzhe Liu</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about">about</a>
+            </li><li>
+                <a href="/" title="posts">posts</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Basic Valgrind Usage</h1>
+        <div>
+                <time>October 3, 2022</time>
+            </div>
+    </header><h2 id="intro">Intro</h2>
+<p>Valgrind is a tool for analysing the instrumental framework for building dynamic analysis tools, developed by Julian Seward.</p>
+<p>Most of the contents in this blog are from the <a href="https://valgrind.org/">Valgrind official</a> website.</p>
+<h2 id="basic">Basic</h2>
+<h3 id="compiling">Compiling</h3>
+<p>Before using Valgrind, we need to compile our programs with <code>-g</code> option, which means the compiling will include the
+detailed debug informations (Memchecks' erroe messgaes with exact line numbers will be included). Note that <code>-O0</code> and <code>-O1</code>
+also works, while it is not recommended to use <code>-O2</code> and above.</p>
+<h3 id="running-under-memcheck">Running under Memcheck</h3>
+<p>In the normal case we just run our programs as this:</p>
+<pre><code>myprog arg1 arg2
+</code></pre><p>Then we need to run the following command to involve Valgrind:</p>
+<pre><code>valgrind --leak-check=yes myprog arg1 arg2
+</code></pre><p>Note that in this way our programs may be a lot slower than running dependently since Valgrind needs to detect memory errors.</p>
+<h3 id="an-example">An Example</h3>
+<pre><code>  #include &lt;stdlib.h&gt;
+
+  void f(void)
+  {
+     int* x = malloc(10 * sizeof(int));
+     x[10] = 0;        // problem 1: heap block overrun
+  }                    // problem 2: memory leak -- x not freed
+
+  int main(void)
+  {
+     f();
+     return 0;
+  }
+</code></pre><p>The memory messages are like following:</p>
+<pre><code>==19182== Invalid write of size 4
+==19182==    at 0x804838F: f (example.c:6)
+==19182==    by 0x80483AB: main (example.c:11)
+==19182==  Address 0x1BA45050 is 0 bytes after a block of size 40 alloc'd
+==19182==    at 0x1B8FF5CD: malloc (vg_replace_malloc.c:130)
+==19182==    by 0x8048385: f (example.c:5)
+==19182==    by 0x80483AB: main (example.c:11)
+</code></pre><ul>
+<li>
+<p>Actually there will be lots of information in each message indelendently, so we need to read them seperately for
+finding the detailed error, as well as the bugs related to them.</p>
+</li>
+<li>
+<p>The number in each message denotes the process ID, which is not the key point.</p>
+</li>
+<li>
+<p>The first line of each message denotes the type of the error.</p>
+</li>
+<li>
+<p>The following line denotes the position of the error (as stack trace).</p>
+</li>
+<li>
+<p>All the memory errors may not cause a error for compiler overall. But it is a error, as well as a bug. So it is better to treat them carefully.</p>
+</li>
+</ul>
+<h3 id="memory-leak">Memory Leak</h3>
+<p>Here is an example for memory leak problem.</p>
+<pre><code>  ==19182== 40 bytes in 1 blocks are definitely lost in loss record 1 of 1
+  ==19182==    at 0x1B8FF5CD: malloc (vg_replace_malloc.c:130)
+  ==19182==    by 0x8048385: f (a.c:5)
+  ==19182==    by 0x80483AB: main (a.c:11)
+</code></pre><p>We can see from the stack trace where the leaked memory will be allocated, but we cannot know the reason from Memcheck directly.</p>
+<p>The leak will be divided into two types:</p>
+<ol>
+<li>&ldquo;definitely lost&rdquo;: it is obvious that the memory was leaked so necessary to fix it.</li>
+<li>&ldquo;probably lost&rdquo;: it also means that the memory is leaked, except some pointer oprations, which are also not smart.</li>
+</ol>
+<h3 id="conditional-jump-or-move-depends-on-uninitialised-values">&ldquo;Conditional jump or move depends on uninitialised value(s)&rdquo;</h3>
+<p>This is a common message that may happen a lot, which means the uses of uninitialised values. It is difficult to find where the root cause is, but using <code>--track-origin=yes</code> will tell us extra informations that helps us locate them.</p>
+<hr>
+<p>Valgrind is a powerful framework with a lot more than this. So
+TO BE CONTINUED</p>
+</article>
+
+        </main><footer id="footer">
+    Copyright © 2022 Youzhe Liu
+</footer>
+</body>
+</html>
