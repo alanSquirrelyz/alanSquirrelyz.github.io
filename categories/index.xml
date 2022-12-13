@@ -108,7 +108,7 @@ finding the detailed error, as well as the bugs related to them.&lt;/p&gt;
 &lt;h3 id=&#34;conditional-jump-or-move-depends-on-uninitialised-values&#34;&gt;&amp;ldquo;Conditional jump or move depends on uninitialised value(s)&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;This is a common message that may happen a lot, which means the uses of uninitialised values. It is difficult to find where the root cause is, but using &lt;code&gt;--track-origin=yes&lt;/code&gt; will tell us extra informations that helps us locate them.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Valgrind is a powerful framework with a lot more than this. So
+&lt;p&gt;Valgrind is a powerful framework with a lot more functions than this. So
 TO BE CONTINUED&lt;/p&gt;
 </description>
     </item>
