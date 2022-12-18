@@ -150,6 +150,10 @@ finding the detailed error, as well as the bugs related to them.&lt;/p&gt;
 ==27492==    by 0x8048470: (within /auto/homes/njn25/grind/head6/memcheck/tests/overlap)
 ==27492== 
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The C library functions above copy some data from one memory block to another (or something similar): memcpy(), strcpy(), strncpy(), strcat(), strncat(). The blocks pointed to by their src and dst pointers aren&amp;rsquo;t allowed to overlap. Memcheck checks for this.&lt;/p&gt;
+&lt;h2 id=&#34;some-tricks&#34;&gt;Some Tricks&lt;/h2&gt;
+&lt;h3 id=&#34;how-to-stop-at-the-first-error&#34;&gt;How to Stop at the First Error&lt;/h3&gt;
+&lt;p&gt;If we want to stop at the console to see where the error occured:&lt;/p&gt;
+&lt;p&gt;Use the parameter : &lt;code&gt;--gen-suppressions=yes&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     

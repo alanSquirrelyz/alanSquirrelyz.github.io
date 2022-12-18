@@ -139,6 +139,10 @@ finding the detailed error, as well as the bugs related to them.</p>
 ==27492==    by 0x8048470: (within /auto/homes/njn25/grind/head6/memcheck/tests/overlap)
 ==27492== 
 </code></pre><p>The C library functions above copy some data from one memory block to another (or something similar): memcpy(), strcpy(), strncpy(), strcat(), strncat(). The blocks pointed to by their src and dst pointers aren&rsquo;t allowed to overlap. Memcheck checks for this.</p>
+<h2 id="some-tricks">Some Tricks</h2>
+<h3 id="how-to-stop-at-the-first-error">How to Stop at the First Error</h3>
+<p>If we want to stop at the console to see where the error occured:</p>
+<p>Use the parameter : <code>--gen-suppressions=yes</code></p>
 </article>
 
         </main><footer id="footer">
