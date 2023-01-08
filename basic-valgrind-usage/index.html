@@ -35,16 +35,16 @@
 <h2 id="basic">Basic</h2>
 <h3 id="compiling">Compiling</h3>
 <p>Before using Valgrind, we need to compile our programs with <code>-g</code> option, which means the compiling will include the
-detailed debug informations (Memchecks&rsquo; erroe messgaes with exact line numbers will be included). Note that <code>-O0</code> and <code>-O1</code>
+detailed debug informations (Memchecks' erroe messgaes with exact line numbers will be included). Note that <code>-O0</code> and <code>-O1</code>
 also works, while it is not recommended to use <code>-O2</code> and above.</p>
 <h3 id="running-under-memcheck">Running under Memcheck</h3>
 <p>In the normal case we just run our programs as this:</p>
-<pre tabindex="0"><code>myprog arg1 arg2
+<pre><code>myprog arg1 arg2
 </code></pre><p>Then we need to run the following command to involve Valgrind:</p>
-<pre tabindex="0"><code>valgrind --leak-check=yes myprog arg1 arg2
+<pre><code>valgrind --leak-check=yes myprog arg1 arg2
 </code></pre><p>Note that in this way our programs may be a lot slower than running dependently since Valgrind needs to detect memory errors.</p>
 <h3 id="an-example">An Example</h3>
-<pre tabindex="0"><code>  #include &lt;stdlib.h&gt;
+<pre><code>  #include &lt;stdlib.h&gt;
 
   void f(void)
   {
@@ -58,10 +58,10 @@ also works, while it is not recommended to use <code>-O2</code> and above.</p>
      return 0;
   }
 </code></pre><p>The memory messages are like following:</p>
-<pre tabindex="0"><code>==19182== Invalid write of size 4
+<pre><code>==19182== Invalid write of size 4
 ==19182==    at 0x804838F: f (example.c:6)
 ==19182==    by 0x80483AB: main (example.c:11)
-==19182==  Address 0x1BA45050 is 0 bytes after a block of size 40 alloc&#39;d
+==19182==  Address 0x1BA45050 is 0 bytes after a block of size 40 alloc'd
 ==19182==    at 0x1B8FF5CD: malloc (vg_replace_malloc.c:130)
 ==19182==    by 0x8048385: f (example.c:5)
 ==19182==    by 0x80483AB: main (example.c:11)
@@ -85,7 +85,7 @@ finding the detailed error, as well as the bugs related to them.</p>
 </ul>
 <h3 id="memory-leak">Memory Leak</h3>
 <p>Here is an example for memory leak problem.</p>
-<pre tabindex="0"><code>  ==19182== 40 bytes in 1 blocks are definitely lost in loss record 1 of 1
+<pre><code>  ==19182== 40 bytes in 1 blocks are definitely lost in loss record 1 of 1
   ==19182==    at 0x1B8FF5CD: malloc (vg_replace_malloc.c:130)
   ==19182==    by 0x8048385: f (a.c:5)
   ==19182==    by 0x80483AB: main (a.c:11)
@@ -101,34 +101,34 @@ finding the detailed error, as well as the bugs related to them.</p>
 <p>The following part includes some typical error type from Valgrind.</p>
 <h3 id="illegal-read--illegal-write-errors">Illegal read / Illegal write errors</h3>
 <p>Here is an example:</p>
-<pre tabindex="0"><code>  Invalid read of size 4
+<pre><code>  Invalid read of size 4
      at 0x40F6BBCC: (within /usr/lib/libpng.so.2.1.0.9)
      by 0x40F6B804: (within /usr/lib/libpng.so.2.1.0.9)
      by 0x40B07FF4: read_png_image__FP8QImageIO (kernel/qpngio.cpp:326)
      by 0x40AC751B: QImageIO::read() (kernel/qimage.cpp:3621)
-     Address 0xBFFFF0E0 is not stack&#39;d, malloc&#39;d or free&#39;d
+     Address 0xBFFFF0E0 is not stack'd, malloc'd or free'd
 </code></pre><p>This happens when the program reads or writes memory at a plce which Memcheck reckons it shouldn&rsquo;t. Normally when you try to read or write pointed to a part that has already been freed, you&rsquo;ll be informed with this message.</p>
 <p>In some cases, the program will lives well with the actually not valid access since we are allowed to read or write to a garbage area (non-fatal error). So when something goes wrong with the output, we may just check the Valgrind output to see whether there is a memory read/write error.</p>
 <h3 id="use-of-uninitialised-values">Use of uninitialised values</h3>
 <p>Here is an example:</p>
-<pre tabindex="0"><code>  Conditional jump or move depends on uninitialised value(s)
+<pre><code>  Conditional jump or move depends on uninitialised value(s)
      at 0x402DFA94: _IO_vfprintf (_itoa.h:49)
      by 0x402E8476: _IO_printf (printf.c:36)
      by 0x8048472: main (tests/manuel1.c:8)
      by 0x402A6E5E: __libc_start_main (libc-start.c:129)
-</code></pre><p>`Uninitialsed value&rsquo; is also a common error that is not easy to find. Sometimes the variable will be read with wrong value thought the memory access is valid.</p>
+</code></pre><p>`Uninitialsed value' is also a common error that is not easy to find. Sometimes the variable will be read with wrong value thought the memory access is valid.</p>
 <blockquote>
 <p>Here is an error that is not easy to be found but easy to appear: sometimes we put several judge statement in a single <code>if</code>, then the more necessary conditions
 conditions should be put first, i.e., the conditions rely on the previous one should be placed after.</p>
 </blockquote>
 <h3 id="illegal-frees">Illegal frees</h3>
 <p>Here is an example:</p>
-<pre tabindex="0"><code>  Invalid free()
+<pre><code>  Invalid free()
      at 0x4004FFDF: free (vg_clientmalloc.c:577)
      by 0x80484C7: main (tests/doublefree.c:10)
      by 0x402A6E5E: __libc_start_main (libc-start.c:129)
      by 0x80483B1: (within tests/doublefree)
-     Address 0x3807F7B4 is 0 bytes inside a block of size 177 free&#39;d
+     Address 0x3807F7B4 is 0 bytes inside a block of size 177 free'd
      at 0x4004FFDF: free (vg_clientmalloc.c:577)
      by 0x80484C7: main (tests/doublefree.c:10)
      by 0x402A6E5E: __libc_start_main (libc-start.c:129)
@@ -136,7 +136,7 @@ conditions should be put first, i.e., the conditions rely on the previous one sh
 </code></pre><p>Memcheck keeps track of the blocks allocated by your program with malloc/new, so it can know exactly whether or not the argument to free/delete is legitimate or not. Here, this test program has freed the same block twice. As with the illegal read/write errors, Memcheck attempts to make sense of the address free&rsquo;d. If, as here, the address is one which has previously been freed, you wil be told that &ndash; making duplicate frees of the same block easy to spot.</p>
 <h3 id="overlapping-source-and-destination-blocks">Overlapping source and destination blocks</h3>
 <p>Here is an example:</p>
-<pre tabindex="0"><code>==27492== Source and destination overlap in memcpy(0xbffff294, 0xbffff280, 21)
+<pre><code>==27492== Source and destination overlap in memcpy(0xbffff294, 0xbffff280, 21)
 ==27492==    at 0x40026CDC: memcpy (mc_replace_strmem.c:71)
 ==27492==    by 0x804865A: main (overlap.c:40)
 ==27492==    by 0x40246335: __libc_start_main (../sysdeps/generic/libc-start.c:129)
@@ -148,6 +148,8 @@ conditions should be put first, i.e., the conditions rely on the previous one sh
 <p>If we want to stop at the console to see where the error occured:</p>
 <p>Use the parameter : <code>--gen-suppressions=yes</code></p>
 <h2 id="some-tutorials">Some tutorials:</h2>
+<p><a href="https://valgrind.org/docs/manual/manual.html">https://valgrind.org/docs/manual/manual.html</a>
+<a href="http://cs.ecs.baylor.edu/~donahoo/tools/valgrind/">http://cs.ecs.baylor.edu/~donahoo/tools/valgrind/</a></p>
 </article>
 
         </main><footer id="footer">
