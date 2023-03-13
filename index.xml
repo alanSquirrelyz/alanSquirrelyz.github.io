@@ -6,9 +6,36 @@
     <description>Recent content on Youzhe Liu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 09 Jan 2023 21:51:24 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Mar 2023 11:42:02 -0800</lastBuildDate>
     
 	<atom:link href="https://alanSquirrelyz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Pre Draft for Parallelism in Randomized Incremental Algorithms</title>
+      <link>https://alanSquirrelyz.github.io/pre-draft-for-parallelism-in-randomized-incremental-algorithms/</link>
+      <pubDate>Sat, 11 Mar 2023 11:42:02 -0800</pubDate>
+      
+      <guid>https://alanSquirrelyz.github.io/pre-draft-for-parallelism-in-randomized-incremental-algorithms/</guid>
+      <description>&lt;h2 id=&#34;the-paper&#34;&gt;The Paper&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/1810.05303&#34;&gt;Paper Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Guy E. Blelloch, Yan Gu, Julian Shun, and Yihan Sun. 2016. Parallelism in Randomized Incremental Algorithms. In Proceedings of the 28th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA &amp;lsquo;16).&lt;/p&gt;
+&lt;h2 id=&#34;what-is-the-paper-talking-about&#34;&gt;What is the paper talking about&lt;/h2&gt;
+&lt;p&gt;The paper mainly focuses on summarizing different types of randomized incremental algorithms and the feasibility/methodology of parallelizing them. There are three types included in the paper, with some classical incremental algorithms.&lt;/p&gt;
+&lt;h2 id=&#34;iteration-dependency&#34;&gt;Iteration Dependency&lt;/h2&gt;
+&lt;h3 id=&#34;preliminaries-dag&#34;&gt;Preliminaries: DAG&lt;/h3&gt;
+&lt;p&gt;An iterative algorithm is an algorithm that runs in a certain sequence of steps (in order). In step $i$, there are some work $W(i)$, and also some depth $D(i)$. Specifically, step $j$ depends on step $i$ if the computation in step $j$ is affected by the step $i$. These steps can be packed (with dependencies) as a DAG.&lt;/p&gt;
+&lt;p&gt;Then let&amp;rsquo;s have a look at the probability part. Since our incremental algorithm is randomized, we need to get it clear what is exactly the probabilities for each step uniformly constructed during the iterative procedure.&lt;/p&gt;
+&lt;p&gt;First of all, there $n!$ orders in total for $n$ steps. The presence of dependency beween any two steps $i, j$ will have a probability $p_{ij}$ event in the sample space. The thing we want to figure out is the upper bound of this probability ($\hat{p}_{ij}$). The tricky thing is that this probability upper bound here is sometimes not independent but the upper bound will always hold so we can do multiplication directly. We can do backward analysis here, considering about &amp;ldquo;removing&amp;rdquo; randomly selected elements one at a time from the end. We should notice that $1, &amp;hellip;, i$ does not rely on the elements $j &amp;gt; i$.&lt;/p&gt;
+&lt;h3 id=&#34;type1&#34;&gt;Type1&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In this kind of algorithm, analyzing the dependency depth by considering all paths and get a union bound over the probability of each.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;type2&#34;&gt;Type2&lt;/h3&gt;
+&lt;h3 id=&#34;type3&#34;&gt;Type3&lt;/h3&gt;
+</description>
+    </item>
     
     
     
