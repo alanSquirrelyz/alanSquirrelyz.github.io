@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://alanSquirrelyz.github.io/misc/06-25-23/</loc>
+    <lastmod>2023-06-25T06:59:59-07:00</lastmod>
+  </url><url>
+    <loc>https://alanSquirrelyz.github.io/misc/</loc>
+    <lastmod>2023-06-25T06:59:59-07:00</lastmod>
+  </url><url>
+    <loc>https://alanSquirrelyz.github.io/</loc>
+    <lastmod>2023-06-25T06:59:59-07:00</lastmod>
+  </url><url>
     <loc>https://alanSquirrelyz.github.io/books/</loc>
     <lastmod>2023-06-12T05:04:10-07:00</lastmod>
   </url><url>
     <loc>https://alanSquirrelyz.github.io/posts/</loc>
-    <lastmod>2023-06-12T05:04:10-07:00</lastmod>
-  </url><url>
-    <loc>https://alanSquirrelyz.github.io/</loc>
     <lastmod>2023-06-12T05:04:10-07:00</lastmod>
   </url><url>
     <loc>https://alanSquirrelyz.github.io/fake-poems/</loc>
