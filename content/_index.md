@@ -17,4 +17,4 @@ Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University o
 - Email: youzhe.liu [at] email [dot] cs [dot] ucr [dot] edu
 - GitHub: https://github.com/alanSquirrelyz
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=D0_x1V4KgQMEHu3noBLKaIUnyp8cwb7j96jHNGKmkh8&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=D0_x1V4KgQMEHu3noBLKaIUnyp8cwb7j96jHNGKmkh8&cl=ffffff&w=200"></script>
