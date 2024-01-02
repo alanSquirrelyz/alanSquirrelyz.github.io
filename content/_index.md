@@ -5,7 +5,7 @@ title: Home
 
 ## About
 
-Youzhe (有哲) is now a Ph.D. student a University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/). He earned his B.S. in Applied Statistics and Data Science from [Fudan University](https://www.fudan.edu.cn/en/).
+Youzhe (有哲) is now a Ph.D. student in University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/). He earned his B.S. in Applied Statistics and Data Science from [Fudan University](https://www.fudan.edu.cn/en/).
 
 ## Publications
 
