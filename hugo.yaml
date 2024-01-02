@@ -1,0 +1,36 @@
+baseurl: "/"
+languageCode: "en-US"
+title: "Youzhe Liu"
+theme: "hugo-paged"
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+
+outputs:
+  home: [html, rss, json]
+
+menu:
+  main:
+    - name: Github
+      url: "https://github.com/alanSquirrelyz"
+      weight: 10
+      params:
+        class: [optional]
+    - name: Blog
+      url: "/content"
+      weight: 20
+      params:
+        class: [optional]
+
+params:
+  description: "Youzhe Liu"
+  logo:
+    en:
+      alt: Youzhe Liu
+  footer: "&copy; [Youzhe Liu] {2022 - 2023}"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
