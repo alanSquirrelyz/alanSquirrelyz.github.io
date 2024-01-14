@@ -1,12 +1,15 @@
 ---
 title: Home
 ---
-
 <h1 class="title">Youzhe Liu</h1>
 
 ## About
 
-Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/). He earned his B.S. in Applied Statistics and Data Science from [Fudan University](https://www.fudan.edu.cn/en/).
+Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/). I earned my B.S. in Applied Statistics and Data Science from [Fudan University](https://www.fudan.edu.cn/en/).
+
+## Research
+
+My current research focuses on designing parallel algorithms with theoretical guanrantee and pratical implementations, especially graph algorithms and clustering. At the same time, I am interested in reinforcement learning.
 
 ## Publications
 
@@ -17,4 +20,4 @@ Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University o
 - Email: youzhe.liu [at] email [dot] cs [dot] ucr [dot] edu
 - GitHub: https://github.com/alanSquirrelyz
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=D0_x1V4KgQMEHu3noBLKaIUnyp8cwb7j96jHNGKmkh8&cl=ffffff&w=200"></script>
+<script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=D0_x1V4KgQMEHu3noBLKaIUnyp8cwb7j96jHNGKmkh8&cl=ffffff&w=200"></script>
