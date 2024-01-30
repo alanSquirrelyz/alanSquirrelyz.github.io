@@ -1,7 +1,7 @@
 +++
 title = 'Bodyshape'
 date = 2024-01-28T23:05:57-08:00
-draft = false
+draft = true
 +++
 
 # WHAT'S WRONG? Every one is anxious about his/her body shape.
