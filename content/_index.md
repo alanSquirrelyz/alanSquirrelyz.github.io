@@ -13,7 +13,7 @@ My current research focuses on designing parallel algorithms with theoretical gu
 
 ## Publications
 
-- [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023 *. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
+- [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023*. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
 
 ## Contact
 
