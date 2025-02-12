@@ -9,7 +9,7 @@ Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University o
 
 ## Research
 
-My current research focuses on designing parallel algorithms with theoretical guanrantee and pratical implementations, especially graph algorithms and clustering. At the same time, I am interested in reinforcement learning.
+My current research focuses on designing parallel algorithms with theoretical guanrantee and pratical implementations, especially graph algorithms and clustering.
 
 ## Publications
 
