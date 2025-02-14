@@ -3,6 +3,8 @@ title: Home
 ---
 <h1 class="title">Youzhe Liu</h1>
 
+<img src="./photos/new.png" alt="isolated" width="200"/>
+
 ## About
 
 Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University of California, Riverside, advised by Professor [Yan Gu](https://www.cs.ucr.edu/~ygu/) and [Yihan Sun](https://www.cs.ucr.edu/~yihans/). I earned my B.S. in Applied Statistics and Data Science from [Fudan University](https://www.fudan.edu.cn/en/).
@@ -14,6 +16,8 @@ My current research focuses on designing parallel algorithms with theoretical gu
 ## Publications
 
 - [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023*. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
+
+- [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023* [[code](https://github.com/ucrparlay/Parallel-KCore)] 
 
 ## Contact
 
