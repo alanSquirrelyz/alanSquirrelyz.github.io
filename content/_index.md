@@ -14,7 +14,7 @@ Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University o
 My current research focuses on designing parallel algorithms with theoretical guanrantee and pratical implementations, especially graph clustering and model inference.
 
 ## Publications
-- [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. SIGMOD 2025* [[code](https://github.com/ucrparlay/Parallel-KCore)] 
+- [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. SIGMOD 2025* [[code](https://github.com/ucrparlay/Parallel-KCore)] [[talk](https://youtu.be/eU0YPJNneNI)] 
 
 - [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023*. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
 
