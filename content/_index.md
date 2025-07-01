@@ -11,7 +11,7 @@ Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student in University o
 
 ## Research
 
-My current research focuses on designing parallel algorithms with theoretical guanrantee and pratical implementations, especially graph clustering and model inference.
+My current research focuses on designing parallel algorithms with theoretical guarantee and practical implementations, especially graph clustering and model inference.
 
 ## Publications
 - [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. SIGMOD 2025* [[code](https://github.com/ucrparlay/Parallel-KCore)] [[talk](https://youtu.be/eU0YPJNneNI)] 
