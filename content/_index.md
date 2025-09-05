@@ -19,10 +19,15 @@ My current research focuses on designing parallel algorithms with theoretical gu
 - [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023*. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
 
 
+## Services
+- Committee member: FCPC25'
+- Reviewer: JPDC24', ALENEX24', EURO-PAR25'
+- Subreviewer: SPAA23', HiPC24', PPoPP25', ESA24', SIGMOD26'
+
 
 ## Contact
 
-- Email: youzhe.liu [at] email [dot] cs [dot] ucr [dot] edu
+- Email: youzhe.liu [at] email [dot] ucr [dot] edu
 - GitHub: https://github.com/alanSquirrelyz
 
 <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=D0_x1V4KgQMEHu3noBLKaIUnyp8cwb7j96jHNGKmkh8&cl=ffffff&w=200"></script>
