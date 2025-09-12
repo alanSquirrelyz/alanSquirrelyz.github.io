@@ -22,12 +22,16 @@ My current research focuses on designing parallel algorithms with theoretical gu
 ## Services
 - Committee member: FCPC25'
 - Reviewer: JPDC24', ALENEX24', EURO-PAR25'
-- Subreviewer: SPAA23', HiPC24', PPoPP25', ESA24', SIGMOD26'
+- Subreviewer: SPAA23', HiPC24', ESA24', PPoPP25', SIGMOD26'
+- Artifact Evaluation Committee: ALENEX25'
 
 
 ## Contact
 
 - Email: youzhe.liu [at] email [dot] ucr [dot] edu
 - GitHub: https://github.com/alanSquirrelyz
+
+## Misc
+[Playlist](https://open.spotify.com/playlist/7APYv0SnF5VycR0VMpOjzy?si=b81226f11f614f5f) I am listening to.
 
 <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=D0_x1V4KgQMEHu3noBLKaIUnyp8cwb7j96jHNGKmkh8&cl=ffffff&w=200"></script>
