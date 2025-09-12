@@ -32,6 +32,6 @@ My current research focuses on designing parallel algorithms with theoretical gu
 - GitHub: https://github.com/alanSquirrelyz
 
 ## Misc
-[Playlist](https://open.spotify.com/playlist/7APYv0SnF5VycR0VMpOjzy?si=b81226f11f614f5f) I am listening to.
+The [Playlist](https://open.spotify.com/playlist/7APYv0SnF5VycR0VMpOjzy?si=b81226f11f614f5f) I am listening to.
 
 <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=D0_x1V4KgQMEHu3noBLKaIUnyp8cwb7j96jHNGKmkh8&cl=ffffff&w=200"></script>
