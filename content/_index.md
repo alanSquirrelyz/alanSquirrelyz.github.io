@@ -30,7 +30,7 @@ My current research focuses on designing parallel algorithms with theoretical gu
 
 - Email: youzhe.liu [at] email [dot] ucr [dot] edu
 - GitHub: https://github.com/alanSquirrelyz
-
+- Instagram: https://www.instagram.com/alan_squirrel/
 ## Misc
 The [Playlist](https://open.spotify.com/playlist/7APYv0SnF5VycR0VMpOjzy?si=b81226f11f614f5f) I am listening to.
 
