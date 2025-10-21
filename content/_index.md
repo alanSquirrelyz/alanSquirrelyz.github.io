@@ -20,10 +20,10 @@ My current research focuses on designing parallel algorithms with theoretical gu
 
 
 ## Services
-- Committee member: FCPC25'
-- Reviewer: JPDC24', ALENEX24', EURO-PAR25'
-- Subreviewer: SPAA23', HiPC24', ESA24', PPoPP25', SIGMOD26'
-- Artifact Evaluation Committee: ALENEX25'
+- Committee member: FCPC'25
+- Reviewer: JPDC'24, ALENEX'24, EURO-PAR'25
+- Subreviewer: SPAA'23, HiPC'24, ESA'24, PPoPP'25, SIGMOD'26
+- Artifact Evaluation Committee: ALENEX'25
 
 
 ## Contact
