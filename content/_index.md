@@ -20,7 +20,7 @@ My current research focuses on designing parallel algorithms with theoretical gu
 
 ## Teaching
 
-UC Riverside: CS190 (Spring '23), CS142 (Winter'24), CS141 (Fall'24, Winter'26), CS214(Fall'23, Spring'25), CS218 (Spring'25)
+UC Riverside: CS190 (Spring'23), CS142 (Winter'24), CS141 (Fall'24, Winter'26), CS214(Fall'23, Spring'25), CS218 (Spring'25)
 
 ## Services
 - Committee member: FCPC'25
