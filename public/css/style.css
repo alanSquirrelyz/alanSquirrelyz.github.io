@@ -207,7 +207,7 @@ h1.title {
   margin-top: 1em;
 }
 h1.title::before {
-  content: "✱";
+  /* content: "❧"; */
   font-style: normal;
   font-weight: normal;
   font-size: 6em;
