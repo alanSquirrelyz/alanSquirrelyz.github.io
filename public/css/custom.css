@@ -1,7 +1,8 @@
 #visitor-map-container {
   position: relative;
-  width: 200px;
-  margin-top: 1em;
+  width: 400px;
+  max-width: 100%;
+  margin: 1em auto 0;
 }
 
 #visitor-map {
@@ -21,7 +22,7 @@
 
 .visitor-dot:hover {
   opacity: 1;
-  r: 5;
+  r: 7;
 }
 
 #visitor-tooltip {
