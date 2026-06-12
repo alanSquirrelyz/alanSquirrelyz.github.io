@@ -96,7 +96,7 @@ The [Play](https://open.spotify.com/playlist/0B1IJqA5cwUlusD6Kfr2ZN?si=71b3de964
         var circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
         circle.setAttribute('cx', pos.x);
         circle.setAttribute('cy', pos.y);
-        circle.setAttribute('r', 3);
+        circle.setAttribute('r', 5);
         circle.setAttribute('class', 'visitor-dot');
         circle.addEventListener('mouseenter', function(e) {
           tooltip.textContent = v.city + ', ' + v.country;
