@@ -11,20 +11,20 @@ Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student at University o
 
 ## Research
 
-My current research focuses on designing parallel algorithms with theoretical guarantees and practical implementations, especially graph clustering and efficient model training/inference.
+My current research focuses on designing parallel algorithms, especially graph algorithms, with both theoretical guarantees and practical implementations. I also work on efficient model training and RL training infrastructure.
 
-## Publications
+## Selected Publications
 - [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. SIGMOD 2025* [[code](https://github.com/ucrparlay/Parallel-KCore)] [[talk](https://youtu.be/eU0YPJNneNI)] 
 
 - [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023*. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
 
 ## Teaching
 
-UC Riverside: CS190 (Spring'23), CS142 (Winter'24), CS141 (Fall'24, Winter'26), CS214(Fall'23, Spring'25), CS218 (Spring'25)
+UC Riverside: CS190 (Spring '23), CS142 (Winter '24), CS141 (Fall '24, Winter '26), CS214(Fall '23, Spring '25), CS218 (Spring '25), CS 152 (Spring '26)
 
 ## Services
 - Committee member: FCPC'25
-- Reviewer: JPDC'24, ALENEX'24, EURO-PAR'25
+- Reviewer: JPDC'24, ALENEX'24, EURO-PAR'25, JPDC 2026
 - Subreviewer: SPAA'23, HiPC'24, ESA'24, PPoPP'25, SIGMOD'26
 - Artifact Evaluation Committee: ALENEX'25
 
