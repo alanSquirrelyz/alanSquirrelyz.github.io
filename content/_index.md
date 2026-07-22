@@ -20,11 +20,11 @@ My current research focuses on designing parallel algorithms, especially graph a
 
 ## Working Experience 
 
-June 2026 - Present, **ByteDance Seed**, San Jose, with He Sun, Dr. Ziyun Wei, Wang Zhang, and Haibin Lin
+June 2026 - ???, **ByteDance Seed**, San Jose, with He Sun, Dr. Ziyun Wei, Wang Zhang, and Haibin Lin
 
-June 2025 - September 2025, **ByteDance**, San Jose, with Dr. Celong Liu
+June 2025 - Sep. 2025, **ByteDance**, San Jose, with Dr. Celong Liu
 
-Sep 2021 - Dec 2021, **Microsoft**, Shanghai
+Sep. 2021 - Dec. 2021, **Microsoft**, Shanghai
 
 
 
