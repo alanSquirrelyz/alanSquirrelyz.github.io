@@ -18,6 +18,14 @@ My current research focuses on designing parallel algorithms, especially graph a
 
 - [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023*. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
 
+## Working Experience 
+
+Microsoft, Shanghai, Sep 2021 - Dec 2021
+
+ByteDance, San Jose, with Dr. Celong Liu, June 2025 - September 2025
+
+ByteDance Seed, San Jose, with He Sun, Dr. Ziyun Wei, Wang Zhang, and Haibin Lin, June 2026 - Present
+
 ## Teaching
 
 UC Riverside: CS190 (Spring '23), CS142 (Winter '24), CS141 (Fall '24, Winter '26), CS214(Fall '23, Spring '25), CS218 (Spring '25), CS 152 (Spring '26)
