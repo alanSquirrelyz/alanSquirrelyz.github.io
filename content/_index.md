@@ -7,11 +7,11 @@ title: Home
 
 ## About
 
-Hi! I am Youzhe Liu (刘有哲). Right now, I am a Ph.D. student at University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/) and [Yan Gu](https://www.cs.ucr.edu/~ygu/). I got my B.S. in Data Science from [Fudan University](https://www.fudan.edu.cn/en/).
+Hi! I am Youzhe Liu (刘有哲). Right now, I am a 5-th year Ph.D. student at University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/) and [Yan Gu](https://www.cs.ucr.edu/~ygu/). I got my B.S. in Data Science from [Fudan University](https://www.fudan.edu.cn/en/).
 
 ## Research
 
-My current research focuses on designing parallel algorithms, especially graph algorithms, with both theoretical guarantees and practical implementations. I also work on efficient model training and RL training infrastructure.
+My current research focuses on designing parallel algorithms and data structures, with both theoretical guarantees and practical implementations. I also work on model training acceleration and RL training infrastructure. 
 
 ## Selected Publications
 - [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. SIGMOD 2025* [[code](https://github.com/ucrparlay/Parallel-KCore)] [[talk](https://youtu.be/eU0YPJNneNI)] 
@@ -20,11 +20,11 @@ My current research focuses on designing parallel algorithms, especially graph a
 
 ## Working Experience 
 
-June 2026 - ???? 2026, **ByteDance Seed**, San Jose, with He Sun, Dr. Ziyun Wei, Wang Zhang, and Haibin Lin
+June 2026 - ???? 2026, **ByteDance Seed**, San Jose, CA, with Dr. Ziyun Wei, Wang Zhang, and Haibin Lin
 
-June 2025 - Sep. 2025, **ByteDance**, San Jose, with Dr. Celong Liu
+June 2025 - Sep. 2025, **ByteDance**, San Jose, CA, with Dr. Celong Liu
 
-Sep. 2021 - Dec. 2021, **Microsoft**, Shanghai
+Sep. 2021 - Dec. 2021, **Microsoft**, Shanghai, China
 
 
 
