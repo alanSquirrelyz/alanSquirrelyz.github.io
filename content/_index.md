@@ -7,7 +7,7 @@ title: Home
 
 ## About
 
-Hi! I am Youzhe Liu (刘有哲). Right now, I am a final year Ph.D. student at University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/) and [Yan Gu](https://www.cs.ucr.edu/~ygu/). I got my B.S. in Data Science from [Fudan University](https://www.fudan.edu.cn/en/). \testbf{I am seeking industry research and engineering positions starting in 2027.}
+Hi! I am Youzhe Liu (刘有哲). Right now, I am a final year Ph.D. student at University of California, Riverside, advised by Professor [Yihan Sun](https://www.cs.ucr.edu/~yihans/) and [Yan Gu](https://www.cs.ucr.edu/~ygu/). I got my B.S. in Data Science from [Fudan University](https://www.fudan.edu.cn/en/). \textbf{I am seeking industry research and engineering positions starting in 2027.}
 
 ## Research
 
