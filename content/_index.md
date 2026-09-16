@@ -20,10 +20,10 @@ My current research focuses on designing **parallel algorithms and data structur
 
 ## Working Experience 
 
-June 2026 - Sep. 2026, **ByteDance Seed**, San Jose, CA, with. Ziyun, Wei, Wang Zhang, and Haibin Lin. 
+June 2026 - Sep. 2026, **ByteDance Seed**, San Jose, CA, with [Ziyun, Wei](https://ultra-seven.github.io/), [Wang Zhang](https://scholar.google.com/citations?user=h4VxTNUAAAAJ&hl=zh-CN), and [Haibin Lin](https://sites.google.com/view/haibinlin/?pli=1&authuser=0). 
 **Working on RL post-training infrastructures.**
 
-June 2025 - Sep. 2025, **ByteDance**, San Jose, CA, with Dr. Celong Liu. 
+June 2025 - Sep. 2025, **ByteDance**, San Jose, CA, with Dr. [Celong Liu](https://scholar.google.com/citations?user=WJSj6FUAAAAJ&hl=en). 
 **Designing pre-training training framework with fault tolerance.**
 
 Sep. 2021 - Dec. 2021, **Microsoft**, Shanghai, China. 
