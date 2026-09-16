@@ -38,9 +38,9 @@ UC Riverside: CS190 (Spring '23), CS142 (Winter '24), CS141 (Fall '24, Winter '2
 
 ## Services
 - Committee member: FCPC'25
-- Reviewer: JPDC'24, ALENEX'24, EURO-PAR'25, JPDC 2026
+- Reviewer: JPDC'24, ALENEX'24, EURO-PAR'25, JPDC'26
 - Subreviewer: SPAA'23, HiPC'24, ESA'24, PPoPP'25, SIGMOD'26
-- Artifact Evaluation Committee: ALENEX'25
+- Artifact Evaluation Committee: ALENEX'25, ALENEX'26
 
 
 ## Contact
