@@ -20,7 +20,7 @@ My current research focuses on designing **parallel algorithms and data structur
 
 ## Working Experience 
 
-June 2026 - ???? 2026, **ByteDance Seed**, San Jose, CA, with Dr. Ziyun Wei, and Haibin Lin. 
+June 2026 - Sep. 2026, **ByteDance Seed**, San Jose, CA, with. Ziyun, Wei, Wang Zhang, and Haibin Lin. 
 **Working on RL post-training infrastructures.**
 
 June 2025 - Sep. 2025, **ByteDance**, San Jose, CA, with Dr. Celong Liu. 
