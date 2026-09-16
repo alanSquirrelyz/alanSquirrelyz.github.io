@@ -24,7 +24,7 @@ June 2026 - Sep. 2026, **ByteDance Seed**, San Jose, CA, with [Ziyun, Wei](https
 **Working on RL post-training infrastructures.**
 
 June 2025 - Sep. 2025, **ByteDance**, San Jose, CA, with [Celong Liu](https://scholar.google.com/citations?user=WJSj6FUAAAAJ&hl=en). 
-**Designing pre-training training framework with fault tolerance.**
+**Designing a pipeline parallel training framework with fault tolerance.**
 
 Sep. 2021 - Dec. 2021, **Microsoft**, Shanghai, China. 
 **Working on Visual Studio Code.**
