@@ -15,12 +15,6 @@ menu:
       weight: 10
       params:
         class: [optional]
-    
-    - name: Blog
-      url: "/posts"
-      weight: 20
-      params:
-        class: [optional]
 
 params:
   description: "Youzhe Liu"
