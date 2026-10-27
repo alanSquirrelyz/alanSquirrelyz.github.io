@@ -15,7 +15,7 @@ My current research focuses on designing **parallel algorithms and data structur
 
 ## Selected Publications
 - [Toggle Tree: A New Data Structure for Efficient Parallel Graph
-Processing]() *with Xinjian Jiang, Yan Gu, and Yihan Sun. PPoPP 2027* [[code]()] 
+Processing](https://alanliu.site) *with Xinjian Jiang, Yan Gu, and Yihan Sun. PPoPP 2027* 
 
 - [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. SIGMOD 2025* [[code](https://github.com/ucrparlay/Parallel-KCore)] [[talk](https://youtu.be/eU0YPJNneNI)] 
 
