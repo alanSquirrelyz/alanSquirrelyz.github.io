@@ -14,6 +14,9 @@ Hi! I am Youzhe Liu (刘有哲). Right now, I am a final year Ph.D. student at U
 My current research focuses on designing **parallel algorithms and data structures**, with both theoretical guarantees and practical implementations. I also work on **model training acceleration** and **RL training infrastructure**. 
 
 ## Selected Publications
+- [Toggle Tree: A New Data Structure for Efficient Parallel Graph
+Processing]() *with Xinjian Jiang, Yan Gu, and Yihan Sun. PPoPP 2027* [[code]()] 
+
 - [Parallel k-Core Decomposition: Theory and Practice](https://www.arxiv.org/abs/2502.08042) *with Xiaojun Dong, Yan Gu, and Yihan Sun. SIGMOD 2025* [[code](https://github.com/ucrparlay/Parallel-KCore)] [[talk](https://youtu.be/eU0YPJNneNI)] 
 
 - [Efficient Parallel Output-Sensitive Edit Distance](https://www.cs.ucr.edu/~yihans/papers/2023/ESA23/edit-distance.pdf) (**best paper award**). *with Xiangyun Ding, Xiaojun Dong, Yan Gu, and Yihan Sun. ESA 2023*. [[code](https://github.com/ucrparlay/Edit-Distance)] [[talk](https://drive.google.com/file/d/1-cgW8-c2MJ1ppC20bLyRS0M8KFjACZRX/view?usp=drive_link)]
